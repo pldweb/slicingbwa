@@ -1,0 +1,110 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #34364A;
+  background-color: #e5e5f7;
+  opacity: 100;
+  background-image: radial-gradient(#dfc3ec 0.8px, #f6f8fd 0.8px);
+  background-size: 13px 13px;
+}
+
+
+.font-bold {
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.font-bold-32 {
+  font-size: 32px;
+  font-weight: 700;
+}
+.font-bold-22 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.font-bold-20 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.font-medium {
+  font-size: 16px;
+  font-weight: 500;
+}
+  .font-medium-26{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.font-regular {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.font-regular-16 {
+  font-size: 16px;
+  font-weight:400;
+}
+.font-light {
+  font-size: 16px;
+}
+.font-second {
+  color: #76757a;
+}
+
+/* navbar */
+.custom-dropdown {
+  border: none;
+  padding: 20px;
+}
+
+.custom-dropdown a:hover {
+  border-radius: 5px;
+  background-color: #eff0f8;
+}
+
+/* Why Section*/
+
+.why, .feature {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.custom-card {
+  margin-top: 30px;
+  padding: 20px 20px 20px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 10px 10px 17px #f3f3fc;
+}
+
+.custom-card-img {
+  border-radius: 20px;
+}
+
+.divider {
+  height: 1px;
+  background: #d5d6e8;
+}
+
+
+
+/* Footer */
+.footer ul {
+  list-style: none; 
+  padding: 0;
+}
+
+.footer ul li {
+  margin-top: 15px;
+}
+.footer ul li a{
+  color: #34364A;
+  text-decoration: none;
+}
+
+.footer h5 a {
+  text-decoration: none;
+  color: #3f4050;
+
+}
