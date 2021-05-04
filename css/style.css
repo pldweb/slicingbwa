@@ -7,7 +7,6 @@ body {
   background-size: 13px 13px;
 }
 
-
 .font-bold {
   font-size: 46px;
   font-weight: bold;
@@ -48,6 +47,9 @@ body {
 .font-light {
   font-size: 16px;
 }
+.font-light-14 {
+  font-size: 14px;
+}
 .font-second {
   color: #76757a;
 }
@@ -58,9 +60,31 @@ body {
   padding: 20px;
 }
 
-.custom-dropdown a:hover {
+.dropdown-item:hover {
   border-radius: 5px;
   background-color: #eff0f8;
+}
+
+@media (min-width: 992px) { 
+  .dropdown-menu {
+    min-width: 700px;
+    padding: 20px 20px;
+    margin-bottom: 30px;
+  }
+ }
+
+.dropdown-menu {
+  /* min-width: 700px; */
+  padding: 20px 20px;
+  margin-bottom: 30px;
+}
+
+.icon {
+  margin-top: 4px;
+  width: 56px;
+  height: 56px;
+  float: left;
+  margin-right: 15px;
 }
 
 /* Why Section*/
